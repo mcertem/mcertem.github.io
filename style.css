@@ -126,6 +126,26 @@ ul li {
     color: gray;
 }
 
+.giant-icon {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    background: whitesmoke;
+    color: darkgrey;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    position: relative;
+}
+
+.giant-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* Scale Bar Styless */
 .skills ul li {
